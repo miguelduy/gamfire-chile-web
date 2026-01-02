@@ -14,37 +14,48 @@
                 <h1>Catálogo de Productos</h1>
 
                 <div class="catalog-controls">
-                    <!-- Filter buttons could go here -->
-                    <button class="btn btn-outline" style="color: black; border-color: #333;">Todos</button>
-                    <button class="btn btn-outline" style="color: black; border-color: #333;">Protección</button>
-                    <button class="btn btn-outline" style="color: black; border-color: #333;">Herramientas</button>
+                    <button class="filter-btn btn btn-outline" data-filter="all"
+                        style="color: black; border-color: #333;">Todos</button>
+                    <button class="filter-btn btn btn-outline" data-filter="proteccion"
+                        style="color: black; border-color: #333;">Protección</button>
+                    <button class="filter-btn btn btn-outline" data-filter="ropa"
+                        style="color: black; border-color: #333;">Ropa</button>
+                    <button class="filter-btn btn btn-outline" data-filter="herramientas"
+                        style="color: black; border-color: #333;">Herramientas</button>
+                    <button class="filter-btn btn btn-outline" data-filter="accesorios"
+                        style="color: black; border-color: #333;">Accesorios</button>
                 </div>
 
                 <div class="product-grid" id="catalog-grid">
-                    <!-- Items injected via JS in the future, hardcoded demo for now -->
-                    <div class="product-card">
+                    <div class="product-card" data-category="proteccion">
                         <div class="product-img-placeholder"></div>
                         <h3>Casco F1</h3>
                         <span class="category">Protección</span>
                         <p>Casco estructural de alto rendimiento.</p>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-category="ropa">
                         <div class="product-img-placeholder"></div>
                         <h3>Chaqueta Normada</h3>
                         <span class="category">Ropa</span>
                         <p>Chaqueta con barrera de vapor y térmica.</p>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-category="accesorios">
                         <div class="product-img-placeholder"></div>
                         <h3>Linterna de Pecho</h3>
                         <span class="category">Accesorios</span>
                         <p>Iluminación manos libres LED.</p>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-category="proteccion">
                         <div class="product-img-placeholder"></div>
                         <h3>Era (Equipo Respiración)</h3>
                         <span class="category">Protección</span>
                         <p>Equipo de respiración autónoma ligero.</p>
+                    </div>
+                    <div class="product-card" data-category="herramientas">
+                        <div class="product-img-placeholder"></div>
+                        <h3>Hacha de Bombero</h3>
+                        <span class="category">Herramientas</span>
+                        <p>Hacha plana con mango de fibra de vidrio.</p>
                     </div>
                 </div>
             </div>
