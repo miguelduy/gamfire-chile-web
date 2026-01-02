@@ -10,9 +10,9 @@ export function loadFooter() {
         <div class="footer-col">
           <h3>Enlaces</h3>
           <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/catalogo.html">Catálogo</a></li>
-            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
         <div class="footer-col">
